@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeroesComponent } from './heroes/heroes.component';
 
 
@@ -19,7 +19,6 @@ import { HeroesComponent } from './heroes/heroes.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
   ],
   providers: [],
 

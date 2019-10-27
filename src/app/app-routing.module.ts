@@ -4,6 +4,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { Routes, RouterModule } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
+
 const routes: Routes = [
   { path: 'aboutme', component: AboutMeComponent },
   { path: 'contactme', component: ContactMeComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+      
   ],
   exports: [RouterModule]
 })
